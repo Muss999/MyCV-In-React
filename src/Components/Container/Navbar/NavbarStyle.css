@@ -1,0 +1,28 @@
+/* navbar start */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    width: 5%;
+    margin-left: 20px;
+}
+.navbar__list {
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    margin: 0;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.navbar__item > a {
+    text-decoration: none;
+    color: gray;
+    transition: 0.8s;
+}
+.navbar__item > a:hover {
+    color: cyan;
+    transition: 0.8s;
+}
+/* navbar end */
